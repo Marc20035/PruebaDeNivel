@@ -1,6 +1,6 @@
 # PruebaDeNivel
 # Notas: 
-* Este es mi repositorio: 
+* Este es mi repositorio: https://github.com/Marc20035/PruebaDeNivel.git
 # Ejercicio: 
 
 * El DLE (Diccionario de la Real Academia EspaÑola (https://www.rae.es/obras-academicas/diccionarios/diccionario-de-la-lengua-espanola))tiene 93 000 palabras, si utilizaremos una lista enlazada para almacenar todas las palabras y luego si tenemos que buscar una palabra en dicha estructura el costo es del orden de O(n), es decir 93 000, pero si en su lugar utilizamos una tabla hash encadenada de 28 posiciones (una para cada letra del abecedario) y supongamos que la cantidad de palabras que empieza con cada letra es aproximadamente similar (más allá que no lo sea) el costo de buscar una palabra en este caso es del orden de O(1+a), esto es igual a (1 + 93 000/28) aproximadamente 3 322, lo cual implica una diferencia significativa respecto a la eficiencia de ambas estructuras.
